@@ -5,4 +5,16 @@
         <UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="LiveSplit.Core">
+        <HintPath>..\..\..\..\Program Files\livesplit\LiveSplit.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="UpdateManager">
+        <HintPath>..\..\..\..\Program Files\livesplit\UpdateManager.dll</HintPath>
+      </Reference>
+      <Reference Include="WinFormsColor">
+        <HintPath>..\..\..\..\Program Files\livesplit\WinFormsColor.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
